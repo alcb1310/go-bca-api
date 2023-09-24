@@ -1,0 +1,16 @@
+### List shopping items
+GET http://localhost:42069
+
+
+### Create shopping items
+POST http://localhost:42069
+Content-Type: application/json
+
+{
+     "name": "Tacos"
+}
+
+
+### List shopping items with middleware
+GET http://localhost:42069/api/v1/
+
