@@ -4,7 +4,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/alcb1310/go-api/api"
+	"github.com/alcb1310/go-api/internals/api"
 	"github.com/gorilla/handlers"
 )
 
